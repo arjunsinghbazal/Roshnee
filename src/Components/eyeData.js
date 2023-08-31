@@ -16,31 +16,31 @@ import fifteen from "../images/15.jpeg"
 
 const Eyewear = [
         {
-          id:1,
+          id:0,
           name: "Sunglasses Model 1",
           price: 99.99,
           eyewearLink: model
         },
         {
-          id:2,
+          id:1,
           name: "Reading Glasses",
           price: 49.99,
           eyewearLink: reading
         },
         {
-          id:3,
+          id:2,
           name: "Fashion Frames",
           price: 79.99,
           eyewearLink: fashion
         },
         {
-          id:4,
+          id:3,
           name: "Sporty Shades",
           price: 69.99,
           eyewearLink: four
         },
         {
-          id:5,
+          id:4,
           name: "Classic Aviators",
           price: 119.99,
           eyewearLink:five
@@ -52,54 +52,54 @@ const Eyewear = [
           eyewearLink: six
         },
         {
-          id:7,
+          id:5,
           name: "Elegant Cat-Eye Frames",
           price: 109.99,
           eyewearLink: seven
         },
         {
-          id:8,
+          id:6,
           name: "Futuristic Reflective Shades",
           price: 149.99,
           eyewearLink: eigth
         },
         {
-          id:9,
+          id:7,
           name: "Retro Square Glasses",
           price: 79.99,
             eyewearLink:nine},
         
         {
-          id:10,
+          id:8,
           name: "Minimalist Wireframe Glasses",
           price: 59.99,
           eyewearLink:ten
         },
-        {id:11,
+        {id:9,
           name: "Polarized Outdoor Sunglasses",
           price: 129.99,
           eyewearLink:eleven
         },
         {
-          id:12,
+          id:10,
           name: "Bold Geometric Frames",
           price: 94.99,
           eyewearLink: twelve
         },
         {
-          id:13,
+          id:11,
           name: "Wooden Texture Eyeglasses",
           price: 84.99,
           eyewearLink: thirteen
         },
         {
-          id:14,
+          id:12,
           name: "Metal Aviator Glasses",
           price: 99.99,
           eyewearLink: fourteen
         },
         {
-          id:15,
+          id:13,
           name: "Tinted Rimless Shades",
           price: 74.99,
           eyewearLink: fifteen

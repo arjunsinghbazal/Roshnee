@@ -17,7 +17,11 @@ const Checkout = () => {
       }, 1000);
     }
   };
-
+const Cancel=(e)=>{
+  e.preventDefault()
+  localStorage.removeItem("cartItems");
+  navigate("/checkout")
+}
   const navigateToHome = (e) => {
     e.preventDefault();
     navigate("/");
@@ -68,9 +72,13 @@ const Checkout = () => {
           </tfoot>
         </table>
         {totalPrice > 0 && (
-          <button className="pay-now-button" onClick={paynow}>
+         <div className="btnpay">
+         <button className="pay-now-button" onClick={paynow}>
             Pay Now
+          </button><button className="cancel-button" onClick={Cancel}>
+            Cancel Order
           </button>
+         </div>
         )}
       </div>
     </div>

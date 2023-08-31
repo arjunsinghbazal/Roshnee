@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 45%;
+  width: 50%;
   height: auto;
   align-items: center;
 }
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 30%;
+  width: 20%;
 }
 
 .centreheader input{
@@ -325,10 +325,15 @@ thead {
 tfoot {
   font-weight: bold;
 }
-
+.btnpay{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .pay-now-button {
   background-color: #007bff;
-  color: #fff;
+  color: green;
+  font-weight: 500;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -337,9 +342,22 @@ tfoot {
 }
 
 .pay-now-button:hover {
-  background-color: #0056b3;
+  background-color:green;
+  color: white;
 }
-
+.cancel-button{
+  background-color: #007bff;
+  color: red;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+.cancel-button:hover{
+  background-color: red;
+  color: white;
+}
 /* signup form  */
 
 .form{
@@ -470,29 +488,28 @@ tfoot {
 
 /* media queries */
 
-/* Default styles for all screen sizes */
-
-/* Styles for screens with a maximum width of 600px */
 @media screen and (max-width: 600px) {
   *{
     margin: 0;
     padding: 0;
+   
   }
   body{
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
+    background-color: red;
   }
   .container{
-    width: 99%;
-    
+    width: 99vw;
+    background-color: green;
   }
   .header {
-    padding: 1rem; /* Adjust header padding for small screens */
+    padding: 5%;
     height: auto;
-    flex-direction: column; /* Change header layout for small screens */
+    flex-direction: column; 
     text-align: center;
-    width: 100%;
-    
+    width: 90%;
+    background-color: purple;
   }
   .leftheader {
     width: 90%;
@@ -503,6 +520,7 @@ tfoot {
     align-items: center;
     margin-bottom: 1rem;
     height: auto;
+    background-color: firebrick;
   }
   .leftheader img{
     max-width:100%;
@@ -514,6 +532,7 @@ tfoot {
     height: 30px;
   }
   .centreheader {
+    background-color: yellow;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -531,6 +550,7 @@ tfoot {
     margin-top: 0.5rem;
   }
   .rightheader {
+    background-color: lightblue;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -546,10 +566,12 @@ tfoot {
   }
 
   .center {
+    background-color: pink;
     flex-direction: column; /* Adjust center layout for small screens */
     margin-bottom: 1rem;
   }
   .centerleft {
+    background-color: beige;
     width: 90%;
     text-align: center;
   }
@@ -557,22 +579,29 @@ tfoot {
     font-size: 30px;
   }
   .centerright {
+    background-color: blanchedalmond;
     width: 90%;
     text-align: center;
     margin-top: 2rem;
   }
+  /* .recomended{
+    background-color: gray;
+  } */
   .onerec{
-    width: 90%;
+    background-color: #007bff;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .showitems {
+    background-color: #555;
     flex-direction: column;
     align-items: center;
     width: 90%;
   }
   .items {
+    background-color: bisque;
     width: 100%;
     margin-bottom: 1rem;
     height: 220px;
@@ -582,11 +611,13 @@ tfoot {
     height: 70%;
   }
   .cartitems {
-    width: 90%; /* Full width on even smaller screens */
+    width: 90%;
+    background-color: blanchedalmond; /* Full width on even smaller screens */
   }
   .footer-content {
     flex-direction: column; /* Stack sections vertically on smaller screens */
     align-items: center;
+    background-color: lightcoral;
   }
 
   .footer-section {

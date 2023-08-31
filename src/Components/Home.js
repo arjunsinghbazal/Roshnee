@@ -91,7 +91,6 @@ const [name,setname]=useState("");
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <img src={store} alt="kkk" onClick={handleCheckout} />
           </div>
           <div className="rightheader">
   {!stoken ? (
