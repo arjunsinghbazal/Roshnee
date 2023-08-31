@@ -112,6 +112,7 @@
 }
 .centerleft button{
   width: fit-content;
+
 }
 .centerright{
   height: 100%;
@@ -568,9 +569,9 @@ tfoot {
     padding: 0%;
   }
   .centerleft {
-   
-    width: 100%;
+    width: 99%;
     text-align: center;
+    padding-left: 1%;
   }
   .centerleft p.one {
     font-size: 30px;
