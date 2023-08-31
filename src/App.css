@@ -4,7 +4,7 @@
 }
 
 .container{
-  padding: 0.4rem;
+  min-height: 100vh;
 }
 
 .header{
@@ -488,7 +488,7 @@ tfoot {
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   *{
     margin: 0;
     padding: 0;
@@ -519,7 +519,7 @@ tfoot {
   }
   .leftheader img{
     max-width:100%;
-    height: 40px;
+    height: 60px;
     margin-bottom: 1rem;
     
   }
@@ -555,7 +555,7 @@ tfoot {
     margin-bottom: 1rem;
   }
   .rightheader button{
-    width: 80%;
+  width: 50%;
   }
   .profile-info-container{
     min-width: 40%;
@@ -563,7 +563,7 @@ tfoot {
 
   .center {
   
-    flex-direction: column; /* Adjust center layout for small screens */
+    flex-direction: column; 
     margin-bottom: 1rem;
     padding: 0%;
   }
@@ -611,7 +611,7 @@ tfoot {
     
   }
   .footer-content {
-    flex-direction: column; /* Stack sections vertically on smaller screens */
+    flex-direction: column; 
     align-items: center;
    
     padding: 0;
@@ -632,15 +632,12 @@ tfoot {
    width: 90%;
   }
 }
-  /* Add more specific styling for small screens as needed */
-
-
-/* Styles for screens with a minimum width of 601px and a maximum width of 1200px */
+ 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
-  /* Add responsive styling for medium-sized screens */
+  
 }
 
-/* Styles for screens with a minimum width of 1201px */
+
 @media screen and (min-width: 1201px) {
-  /* Add responsive styling for large screens */
+  
 }
