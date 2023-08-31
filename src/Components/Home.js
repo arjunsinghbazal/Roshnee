@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/download.webp";
-import store from "../images/shopping-cart-20392.png";
+
 import imgae from "../images/Daco_1617365.png";
 import imgae1 from "../images/men-removebg-preview.png";
 import imgae2 from "../images/kidz-removebg-preview (1).png";
@@ -46,8 +46,8 @@ const [name,setname]=useState("");
     return () => clearInterval(interval);
   }, [ltoken]);
 
-  const handleCartClick = (e) => {
-    e.preventDefault();
+  const handleCartClick = () => {
+    setSearchQuery("");
     if (ltoken) {
       navigate("/cart");
     } else {
@@ -115,10 +115,9 @@ const [name,setname]=useState("");
         <div className="recomended" ref={recommendedRef}>
           <div className="onerec">
             <h3>Recommended</h3>
-            <button className="gray" onClick={() => {
-              setSearchQuery("");
-              handleCartClick();
-            }}>
+            <button className="gray" onClick={
+              handleCartClick
+            }>
               See all
             </button>
           </div>
