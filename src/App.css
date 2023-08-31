@@ -495,21 +495,21 @@ tfoot {
    
   }
   body{
-    width: 100vw;
-    overflow-x: hidden;
+    width: 99%;
     background-color: red;
   }
   .container{
-    width: 99vw;
+    width: 94%;
     background-color: green;
+    
   }
   .header {
-    padding: 5%;
+    width: 75%;
     height: auto;
     flex-direction: column; 
     text-align: center;
-    width: 90%;
-    background-color: purple;
+    
+    background-color: rgb(179, 14, 14);
   }
   .leftheader {
     width: 90%;
@@ -633,7 +633,6 @@ tfoot {
 
   .copyright{
    width: 90%;
-   margin-left: 2rem;
   }
 }
   /* Add more specific styling for small screens as needed */

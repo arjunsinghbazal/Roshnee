@@ -60,21 +60,14 @@ const [name,setname]=useState("");
     navigate("/signup");
   };
 
-  const handleCheckout = (e) => {
-    e.preventDefault();
-    if (ltoken) {
-      navigate("/checkout");
-    } else {
-      alert("Please login first.");
-    }
-  };
+  
 
   const filteredEyewear = Eyewear.filter((item) =>
     item.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (
-    <>
+    
       <div className="container">
         <div className="header">
           <div className="leftheader">
@@ -189,7 +182,6 @@ const [name,setname]=useState("");
           <p className="copyright">© 2023 Roshnee Eyewear Store. All rights reserved.</p>
         </footer>
       </div>
-    </>
   );
 };
 
