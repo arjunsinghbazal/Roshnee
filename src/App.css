@@ -479,8 +479,8 @@ tfoot {
     padding: 0;
   }
   body{
-    width: 100vw;
-    
+    width: 100%;
+    overflow-x: hidden;
   }
   .container{
     width: 99%;
@@ -582,7 +582,7 @@ tfoot {
     height: 70%;
   }
   .cartitems {
-    width: 40%; /* Full width on even smaller screens */
+    width: 90%; /* Full width on even smaller screens */
   }
   .footer-content {
     flex-direction: column; /* Stack sections vertically on smaller screens */
