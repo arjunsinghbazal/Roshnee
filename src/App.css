@@ -500,13 +500,11 @@ tfoot {
   }
   .container{
     width: 94%;
-    background-color: green;
   }
   .header {
     height: auto;
     flex-direction: column; 
     text-align: center;
-    background-color: rgb(179, 14, 14);
   }
   .leftheader {
    width: 100%;
@@ -518,21 +516,20 @@ tfoot {
     margin-bottom: 1rem;
     height: auto;
     padding: 0%;
-    background-color: firebrick;
   }
   .leftheader img{
     max-width:100%;
     height: 40px;
     margin-bottom: 1rem;
-    background-color: lightpink;
+    
   }
   .leftheader p{
     width: 50%;
     height: 30px;
-    background-color: lightblue;
+    
   }
   .centreheader {
-    background-color: yellow;
+    
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -549,7 +546,7 @@ tfoot {
     margin-top: 0.5rem;
   }
   .rightheader {
-    background-color: lightblue;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -565,43 +562,42 @@ tfoot {
   }
 
   .center {
-    background-color: pink;
+  
     flex-direction: column; /* Adjust center layout for small screens */
     margin-bottom: 1rem;
     padding: 0%;
   }
   .centerleft {
-    background-color: beige;
-    width: 90%;
+   
+    width: 100%;
     text-align: center;
   }
   .centerleft p.one {
     font-size: 30px;
   }
   .centerright {
-    background-color: blanchedalmond;
+   
     width: 80%;
     text-align: center;
     margin-top: 2rem;
   }
   .recomended{
-    background-color: gray;
     padding: 0;
   }
   .onerec{
-    background-color: #007bff;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .showitems {
-    background-color: #555;
+
     flex-direction: column;
     align-items: center;
     width: 90%;
   }
   .items {
-    background-color: bisque;
+   
     width: 100%;
     margin-bottom: 1rem;
     height: 220px;
@@ -612,12 +608,12 @@ tfoot {
   }
   .cartitems {
     width: 90%;
-    background-color: blanchedalmond; /* Full width on even smaller screens */
+    
   }
   .footer-content {
     flex-direction: column; /* Stack sections vertically on smaller screens */
     align-items: center;
-    background-color: lightcoral;
+   
     padding: 0;
   }
 
