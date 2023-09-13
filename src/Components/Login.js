@@ -27,7 +27,7 @@ e.preventDefault();
      }, 1000);
     }
     else if(!isMatch){
-   setMessage("Error:Please Enter Valid Email address and password")
+   setMessage("Error:Please Enter Valid Username and password")
     }
     else{
         navigate("/signup")
