@@ -72,8 +72,6 @@ const [name,setname]=useState("");
         <div className="header">
           <div className="leftheader">
             <img src={logo} alt="kkk" />
-            <p onClick={() => navigate("/")}>Home</p>
-            <p onClick={handleCartClick}>Shop</p>
             <p onClick={() => recommendedRef.current.scrollIntoView({ behavior: "smooth" })}>Recommended</p>
             <p onClick={() => featuredRef.current.scrollIntoView({ behavior: "smooth" })}>Featured</p>
           </div>

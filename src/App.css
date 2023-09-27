@@ -158,9 +158,9 @@
   padding: 1rem;
   border: 1px solid #ccc;
   padding: 10px;
-  box-shadow: 20px 20px 50px 10px gray inset;
-
+ 
 }
+
 .items img{
   width: 80%;
   height: 60%;
@@ -238,18 +238,18 @@
 
 .cartitems img {
   width: 80%;
-  max-height: 50%;
+  height: 50%;
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
 }
 
 .cartitems h5 {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin: 0.5rem 0;
 }
 
 .cartitems p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #555;
 }
 
@@ -473,6 +473,8 @@ tfoot {
 
 .profile-info {
   margin: 0.5rem 0;
+}.home{
+  display: none;
 }
 
 .profile-footer {
@@ -514,9 +516,9 @@ tfoot {
     flex-direction: column; 
     text-align: center;
     position: relative;
-    box-shadow: 20px 20px 50px 10px gray inset;
     margin-bottom: 1rem;
   }
+  
   .leftheader {
    width: 100%;
     display: flex;
