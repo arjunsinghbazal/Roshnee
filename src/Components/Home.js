@@ -5,8 +5,6 @@ import logo from "../images/download.webp";
 import imgae from "../images/Daco_1617365.png";
 import imgae1 from "../images/men-removebg-preview.png";
 import imgae2 from "../images/kidz-removebg-preview (1).png";
-import imgae3 from "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F36473296-ai-generated-happy-old-man-with-a-kind-expression-on-a-transparent-background&psig=AOvVaw01DclTeQMgGHsNCaYXeAAz&ust=1724244776075000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjWkMvOg4gDFQAAAAAdAAAAABAE";
-
 import Eyewear from "./eyeData";
 import profileImage from "../images/images.jpeg";
 
